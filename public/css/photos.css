@@ -1,0 +1,125 @@
+
+p {
+    background: #fff;
+    width: 200px;
+    height: 100px;
+    word-break: break-all;
+    hyphens: manual;
+    padding: 5px;
+    padding-top: 10px;
+    position: relative;
+    top: -10px;
+    z-index: -1;
+}
+
+body {
+    background-color: #92d8d8;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.hiddenP {
+    display: none;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+div.photos:hover img {
+    opacity: 0.5;
+}
+
+div.photos:hover a {
+    display: block;
+    color: black;
+}
+
+div.photos:hover .hiddenP{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 26%;
+}
+
+.delete {
+    position: absolute;
+    top:2%;
+    left:75%;
+    display: none;
+}
+
+.photos {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+.photos-container {
+    position: relative;
+    top: 420px;
+    left: 61px;
+}
+
+.caption {
+    resize: none;
+    width: 275px;
+    position: relative;
+    left: 128px;
+}
+
+.width {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    text-align: center;
+}
+
+.imgInput {
+    position: relative;
+    bottom: 100px;
+    left: 170px;
+}
+
+.previewImage {
+    height: 200px;
+    width: 275px;
+    position: relative;
+    bottom: 100px;
+}
+
+.top {
+    margin-top: -100px;
+}
+
+.chooseImage {
+    position: absolute;
+    top: -44%;
+    left: 223px;
+}
+
+.errors {
+    width: 250px;
+    position: absolute;
+    top: 35%;
+    left: 19%;
+}
+
+input[type=file] {
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+    height: 35px;
+    width: 200px;
+}
